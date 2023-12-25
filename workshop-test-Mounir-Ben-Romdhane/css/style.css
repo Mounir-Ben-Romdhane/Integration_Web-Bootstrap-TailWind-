@@ -1,0 +1,73 @@
+.navbar-nav > li {
+  padding-left: 50px;
+  padding-right: 60px;
+}
+
+.nav-item {
+  font-size: 30px !important;
+  color: #f4f4f4;
+}
+
+.hello {
+  font-size: 48px;
+}
+
+.p {
+  font-size: 36px;
+}
+
+.lorem {
+  font-size: 24;
+}
+
+.title {
+  font-weight: bold;
+  color: #bc694e;
+}
+
+.date {
+  font-size: 24px;
+  color: #848484;
+}
+
+.type {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.work {
+  font-size: 18px;
+  color: #9b9b9b;
+}
+
+.award {
+  color: #4f4f4f;
+  font-size: 24px;
+}
+
+.img {
+  width: 100%;
+}
+
+.iconsFt {
+  color: #4f4f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconsFt i {
+  font-size: 2rem;
+  margin-right: 1.3rem;
+}
+.iconsFt i:last-child {
+  margin-right: 0;
+}
+
+.box {
+  font-size: 35px;
+  color: white;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

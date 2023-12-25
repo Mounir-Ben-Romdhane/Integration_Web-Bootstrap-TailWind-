@@ -1,0 +1,4 @@
+@mixin inline-block ($margin : 10px) {
+    display: inline-block;
+    margin-left: $margin;
+}

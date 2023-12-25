@@ -1,0 +1,142 @@
+@import "_variables";
+
+//NavBar
+
+
+.navItem {
+    color: $NavbarColorItem;
+    font-size: 16px;
+    font-weight: 400; // 400 correspond à la variante Regular
+    font-family:  $navbarFontFamily,sans-serif;
+    margin-right: 1.1rem;
+}
+
+.navbar-toggler {
+margin-right: 1rem;
+}
+
+
+
+//Hero Section
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+    width: 35vw;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+.btn {
+    background-color: $roseRouger;
+    border-color: $roseRouger;
+    color: $white;
+    font-size: 1rem;
+    border-radius: 3rem;
+    font-family: $heroFontFamily;
+    padding: 1rem 2rem;
+}
+
+.h1 {
+    font-size: 3.5rem;
+    color: $blueMarine;
+    font-family: $heroFontFamily;
+}
+
+.h6 {
+    font-size: 1.1rem;
+    color: $gris;
+}
+
+//Section 1
+
+.badge1{
+    font-family:  $heroFontFamily;
+    font-size: 1.2 rem;
+    color: $pink ;
+  }
+  .badge2{
+    font-family:  $heroFontFamily;
+      font-size: 1.2 rem;
+    color: $blue ;
+  }
+  .badge3{
+  font-family:  $heroFontFamily;
+    font-size: 1.2 rem;
+    color: $green ;
+  }
+
+  p{
+    color: $gris;
+    font-size: 16px;
+    font-weight: 400; // 400 correspond à la variante Regular
+    font-family:  $navbarFontFamily,sans-serif; 
+  }
+
+  //Section 2
+
+.containerS2 {
+margin-top: 9rem;
+}
+
+.card-text{
+    color: $gris;
+    font-size: 16px;
+    font-weight: 400; // 400 correspond à la variante Regular
+    font-family:  $navbarFontFamily,sans-serif; 
+}
+.card-title{
+    font-size: 36px;
+    color: $blueMarine;
+    font-family: $heroFontFamily;
+}
+
+//Footer
+footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: 1rem;
+  height: 24.5rem;
+  margin-top: 10rem;
+  }
+
+.titleIntWeb { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $footer-font;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menuFt {
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .p-2 {
+    padding: 2rem 2rem;
+    margin-right: 1.5rem; // Adjust margin-right for space between menu items
+    }
+}
+}
+
+.iconsFt {
+margin-top: 3rem; 
+display: flex;
+justify-content: center;
+align-items: center;
+a {
+    font-size: 2rem;
+    margin-right: 2.6rem; 
+    color: $white;
+}
+
+a:last-child {
+    margin-right: 0; 
+}
+}

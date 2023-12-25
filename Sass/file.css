@@ -1,0 +1,41 @@
+h1 {
+  background-color: red;
+}
+
+.button, .button-alert a {
+  display: inline-block;
+  color: red;
+  text-align: center;
+  border: solid 2px red;
+}
+
+.button-alert a {
+  border-radius: 4px;
+}
+
+#box {
+  font-weight: bold;
+  font-family: Algerian;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.m-1 {
+  margin: 0 0.25rem;
+}
+
+.m-2 {
+  margin: 0 0.5rem;
+}
+
+.m-3 {
+  margin: 0 0.75rem;
+}
+
+.btn {
+  background: #ff752f;
+  border-radius: 5px;
+  color: #ffb60b;
+}
+
+/*# sourceMappingURL=file.css.map */

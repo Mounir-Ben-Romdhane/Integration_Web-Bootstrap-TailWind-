@@ -1,0 +1,74 @@
+@import "mixins";
+$colorApp : red;
+$colorYellow : yellow;
+$colorWhite : white;
+
+$white: #fff;
+$blue: #0097e6;
+$text-color: #192a56;
+
+$langages: (HTML5, CSS3, JAVA, React);
+
+.text, textarea, h1 {
+    color: $colorApp;
+    font-size: 20px;
+}
+
+.btn {
+    @include borderMixin(3px, solid, yellow);
+}
+
+
+
+
+@function premier-dernier($tableau) {
+    $first : nth($tableau, 1);
+    $last: nth($tableau,length($tableau));
+    @return ($first, $last);
+  }
+
+  .element {
+    $resultat: premier-dernier($langages);
+    // Utilisez $resultat pour la première et la dernière entrée
+    .first-language {
+        color: blue; // Ajoutez vos styles si nécessaire
+        content: index($list: resultat, $value: 1);
+      }
+    
+      .last-language {
+        color: green; // Ajoutez vos styles si nécessaire
+        content: index($list: resultat, $value: 2); 
+      }
+  }
+
+  h1 {
+    font-size: 6rem * 2;
+    color: #15DEA5;
+    font-family: Arial;
+  }
+
+  $border-color: red;
+  .item {
+  border: 2px solid $border-color;
+  }
+
+
+@function background($text-color) {
+@if ($text-color == $white) {
+@return $blue;
+} @else {
+@return $white;
+}}
+
+.button {
+color: $text-color;
+background-color: background($text-color);
+}
+ 
+.btn-1 {
+    margin: 5px;
+    border-radius: 2px;
+}
+
+
+    

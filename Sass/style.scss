@@ -1,0 +1,47 @@
+@import "mixins";
+$colorApp : red;
+
+h1{
+    background-color: $colorApp;
+}
+
+.button {
+    display: inline-block;
+    color: $colorApp;
+    text-align: center;
+    border: solid 2px $colorApp;
+}
+
+.button-alert {
+    a{
+        @extend .button;
+        border-radius: 4px;
+    }
+}
+
+#box {
+    font: {
+        weight: bold;
+        family: Algerian;
+    }
+    @include inline-block(20px);
+}
+
+@for $i from 1 through 3 {
+    .m-#{$i} {
+        margin: 0 ($i*0.25rem);
+    }
+}
+
+$primary-color: #ff752f;
+
+.btn{
+    background: $primary-color;
+    border-radius: 5px;
+
+    @if lightness($primary-color)>50%{
+        color: #ffb60b;
+    }@else{
+        color: #ff1f17;
+    }
+}
